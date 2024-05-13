@@ -1,0 +1,91 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFrameworkProject",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Calculator",
+        "printedName": "Calculator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(num1:num2:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22CustomFrameworkProject10CalculatorV3add4num14num2S2i_SitFZ",
+            "mangledName": "$s22CustomFrameworkProject10CalculatorV3add4num14num2S2i_SitFZ",
+            "moduleName": "CustomFrameworkProject",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22CustomFrameworkProject10CalculatorV",
+        "mangledName": "$s22CustomFrameworkProject10CalculatorV",
+        "moduleName": "CustomFrameworkProject",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jaffer-2687\/Documents\/Xcode\/CustomFrameworkProject\/CustomFrameworkProject\/Calculator.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 31,
+      "value": "\"Adding Of \""
+    },
+    {
+      "filePath": "\/Users\/jaffer-2687\/Documents\/Xcode\/CustomFrameworkProject\/CustomFrameworkProject\/Calculator.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 3,
+      "value": "\" and \""
+    },
+    {
+      "filePath": "\/Users\/jaffer-2687\/Documents\/Xcode\/CustomFrameworkProject\/CustomFrameworkProject\/Calculator.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
